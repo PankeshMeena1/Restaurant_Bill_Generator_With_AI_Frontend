@@ -1,0 +1,59 @@
+.homepage-background {
+    background-image: url('https://images.unsplash.com/photo-1559628233-760d1b00768a?auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 60px 0;
+    backdrop-filter: brightness(0.85);
+    color: #fff;
+  }
+  
+  .brand {
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    margin-top: 40px;
+    color: #fff;
+    border-bottom: 2px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .food-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .food-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .food-image {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .food-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .form-control {
+    border-radius: 30px;
+    padding: 12px 20px;
+    border: none;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+  }
+      

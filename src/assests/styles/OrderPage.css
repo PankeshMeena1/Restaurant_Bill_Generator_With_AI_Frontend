@@ -1,0 +1,71 @@
+/* OrderPage.css */
+.order-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-control button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  h1, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  h4 {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  button {
+    font-size: 16px;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .text-muted {
+    color: #555;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  

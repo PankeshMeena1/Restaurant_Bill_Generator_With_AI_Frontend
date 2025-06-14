@@ -1,0 +1,143 @@
+/* Bill container styles for web */
+.bill-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .bill-card {
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .bill-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  h4 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Bill container card style */
+  .bill-card {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fffefb;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .bill-card h2 {
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  .bill-container {
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Print Optimized Styles */
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+  
+    .bill-container, .bill-container * {
+      visibility: visible;
+    }
+  
+    .bill-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      box-shadow: none;
+      padding: 0;
+    }
+  
+    /* Adjust table and other elements for print */
+    .table th, .table td {
+      font-size: 14px;
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+  
+    h2, h4 {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    /* Hide buttons and extra UI for print */
+    button {
+      display: none;
+    }
+  
+    .bill-container h2, .bill-container p {
+      margin-bottom: 8px;
+    }
+  
+    .bill-container .text-end {
+      text-align: right;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 768px) {
+    .bill-title {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 16px;
+      width: 100%;
+    }
+  
+    .bill-container {
+      padding: 15px;
+    }
+  
+    .bill-card {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  
